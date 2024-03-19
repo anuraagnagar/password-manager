@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+*~
+.*.swp
+.pyc
+*.py[co]
+*$py.class
+.pytest_cache/
+__pycache__/
+
+
+# configs
+*.conf
+logging.yaml
+
+# database migration and local db.
+migrations/
+*.sqlite3
+*.db
+
+# python packaging
+/dist
+/build
+*.egg-info
+
+# IDE files
+.idea/
+*.sublime-*
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.pytest_cache
+
+# sphinx
+/docs/build/
+
+# logs
+*.log
+
+# Python Virtual environment file, packages..
+.env
+.ENV
+.venv/
+env/

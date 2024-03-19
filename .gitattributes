@@ -1,0 +1,28 @@
+# Auto-detect text files and handle line endings automatically
+* text=auto
+
+# JavaScript and JSX files
+*.js text
+*.jsx text
+*.ts text
+*.tsx text
+
+# JSON files
+*.json text
+
+# CSS files
+*.css text
+
+# Images and binary files
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.eot binary
+*.ttf binary
+*.svg binary
+
+# Ignore Node.js modules
+node_modules/ -diff
